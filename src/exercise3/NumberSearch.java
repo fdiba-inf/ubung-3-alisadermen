@@ -4,13 +4,17 @@ public class NumberSearch {
     int d = 0;
     for(int index = 100; index < 1000; index++) {
       if(index%5==0 && index%6==0) {
-        if(d==10) {
-          System.out.println(" ");
+        if(d < 9) {
+          d++;
+          System.out.print(index + " ");
+        } else if (d==9) {
+          System.out.print(index);
+          System.out.print("\n");
           d=0;
         }
-        d++;
-        System.out.print(index);
-        System.out.print(" ");
+
+        
+  
 
       }
     }
