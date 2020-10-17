@@ -24,8 +24,8 @@ while (number != 0) {
   sum += number;
   number = input.nextInt();
 }
-  System.out.println("Positive numbers: " + negative);
-  System.out.println("Negative numbers: " + positive);
+  System.out.println("Positive numbers: " + positive);
+  System.out.println("Negative numbers: " + negative);
 System.out.println("Sum: " + sum);
 System.out.println("Average: " + sum/(positive+negative));
   }
