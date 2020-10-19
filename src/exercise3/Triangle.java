@@ -12,12 +12,12 @@ public class Triangle {
         double p = (a+b+c)/2;
         double area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
         System.out.println("Area: "+area);
-        if (a==b || b==c || a==c) {
-          System.out.println("Triangle: isosceles");
-         } else if (a!=b && b!=c) {
-            System.out.println("Triangle: scalene");
+        if (a==b && b==c) {
+          System.out.println("Triangle: equilateral");
+         } else if (a==b || b==c || a==c) {
+            System.out.println("Triangle: isosceles");
           } else {
-              System.out.println("Triangle: equilateral");
+              System.out.println("Triangle: scalene");
             }
           
         } else {
