@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Triangle {
   public static void main (String[] args) {
     Scanner input = new Scanner(System.in);
-    do {
       System.out.println("Enter values for a, b and c: ");
+    do {
       double a = input.nextDouble();
       double b = input.nextDouble();
       double c = input.nextDouble();
